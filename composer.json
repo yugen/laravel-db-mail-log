@@ -1,16 +1,19 @@
 {
     "name": "yugen/laravel-db-mail-log",
     "description": "Log your outgoing mail to the database so you can see what's sent",
+    "homepage": "https://github.com/yugen/laravel-db-mail-log",
+    "keywords": ["laravel", "mail", "storage"],
     "type": "package",
     "license": "BSD",
     "authors": [
         {
             "name": "TJ Ward",
-            "email": "jward3@email.unc.edu"
+            "email": "jward3@email.unc.edu",
+            "role": "developer"
         }
     ],
     "require": {
-
+        "php": ">=7.1.33"
     },
     "require-dev": {
         "orchestra/testbench": "^3.8"
