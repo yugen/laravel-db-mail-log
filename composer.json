@@ -4,7 +4,7 @@
     "homepage": "https://github.com/yugen/laravel-db-mail-log",
     "keywords": ["laravel", "mail", "storage"],
     "type": "package",
-    "license": "BSD",
+    "license": "MIT",
     "authors": [
         {
             "name": "TJ Ward",
