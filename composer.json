@@ -1,0 +1,33 @@
+{
+    "name": "berglab/db-mail-log",
+    "description": "Log your outgoing mail to the database so you can see what's sent",
+    "type": "package",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "TJ Ward",
+            "email": "jward3@email.unc.edu"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Berglab\\DbMailLog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Berglab\\DbMailLog\\Tests": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Berglab\\DbMailLog\\DbMailLogProvider"
+            ]
+        }
+    }
+}
