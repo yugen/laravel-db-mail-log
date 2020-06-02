@@ -1,8 +1,8 @@
 <?php
 
-namespace Berglab\DbMailLog\Listeners;
+namespace Yugen\DbMailLog\Listeners;
 
-use Berglab\DbMailLog\DbMailLogProvider;
+use Yugen\DbMailLog\DbMailLogProvider;
 use Illuminate\Mail\Events\MessageSent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;

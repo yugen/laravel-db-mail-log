@@ -1,6 +1,6 @@
 <?php
 
-namespace Berglab\DbMailLog\Contracts;
+namespace Yugen\DbMailLog\Contracts;
 
 use Illuminate\Database\Eloquent\Builder;
 

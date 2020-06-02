@@ -1,10 +1,10 @@
 <?php
 
-namespace Berglab\DbMailLog\Models;
+namespace Yugen\DbMailLog\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
-use Berglab\DbMailLog\Contracts\Email as EmailContract;
+use Yugen\DbMailLog\Contracts\Email as EmailContract;
 
 class Email extends Model implements EmailContract
 {

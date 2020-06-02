@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Berglab\\DbMailLog\\": "src/"
+            "Yugen\\DbMailLog\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Berglab\\DbMailLog\\Tests": "tests"
+            "Yugen\\DbMailLog\\Tests": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Berglab\\DbMailLog\\DbMailLogProvider"
+                "Yugen\\DbMailLog\\DbMailLogProvider"
             ]
         }
     }

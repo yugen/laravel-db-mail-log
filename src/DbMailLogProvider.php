@@ -1,15 +1,15 @@
 <?php
 
-namespace Berglab\DbMailLog;
+namespace Yugen\DbMailLog;
 
 use Exception;
-use Berglab\DbMailLog\Models\Email;
+use Yugen\DbMailLog\Models\Email;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Events\MessageSent;
 use Illuminate\Support\ServiceProvider;
-use Berglab\DbMailLog\Listeners\StoreMailInDatabase;
-use Berglab\DbMailLog\Contracts\Email as EmailContract;
+use Yugen\DbMailLog\Listeners\StoreMailInDatabase;
+use Yugen\DbMailLog\Contracts\Email as EmailContract;
 
 class DbMailLogProvider extends ServiceProvider
 {
@@ -41,7 +41,7 @@ class DbMailLogProvider extends ServiceProvider
         $model = config('db_mail_log.email_model') ?? Email::class;
         
         if (! is_a($model, EmailContract::class, true) || ! is_a($model, Model::class, true)) {
-            throw new Exception('Invalid Email Log Entry class.  It must implement Berglab\\DbMailLog\\Contracts\\Email and exted Illuminate\Database\Eloquent\Model');
+            throw new Exception('Invalid Email Log Entry class.  It must implement Yugen\\DbMailLog\\Contracts\\Email and exted Illuminate\Database\Eloquent\Model');
         }
 
         return $model;

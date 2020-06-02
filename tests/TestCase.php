@@ -1,6 +1,6 @@
 <?php
 
-namespace Berglab\DbMailLog\Tests;
+namespace Yugen\DbMailLog\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
@@ -19,7 +19,6 @@ class TestCase extends OrchestraTestCase
 
     protected function createEmailLogTable()
     {
-        include_once(__DIR__.'/../migrations/create_email_log_table.php);
+        include_once(__DIR__.'/../migrations/create_email_log_table.php');
     }
-    
 }
