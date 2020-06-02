@@ -1,5 +1,5 @@
 {
-    "name": "berglab/db-mail-log",
+    "name": "yugen/laravel-db-mail-log",
     "description": "Log your outgoing mail to the database so you can see what's sent",
     "type": "package",
     "license": "BSD",
@@ -9,7 +9,9 @@
             "email": "jward3@email.unc.edu"
         }
     ],
-    "require": {},
+    "require": {
+
+    },
     "require-dev": {
         "orchestra/testbench": "^3.8"
     },
